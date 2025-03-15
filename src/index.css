@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -7,4 +8,22 @@
   --color-blue-500: #4f5d74;
   --color-blue-200: #cee3e9;
   --color-green-300: #53ffaa;
+
+  --font-main: "Manrope", sans-serif;
+
+  --text-*: initial;
+
+  --text-heading-sm: 0.688rem;
+  --text-heading-sm--letter-spacing: 0.216rem;
+  --text-heading-md: 0.813rem;
+  --text-heading-md--letter-spacing: 0.25rem;
+
+  --text-quote-sm: 1.5rem;
+  --text-quote-sm--letter-spacing: -0.016rem;
+  --text-quote-md: 1.75rem;
+  --text-quote-md--letter-spacing: -0.019rem;
+
+  --radius-*: initial;
+  --radius-md: 10px;
+  --radius-lg: 15px;
 }
