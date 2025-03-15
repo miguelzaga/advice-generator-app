@@ -28,4 +28,6 @@
   --radius-lg: 15px;
 
   --spacing-18: 4.5rem;
+
+  --drop-shadow-main: 0 0 20px var(--color-green-300);
 }

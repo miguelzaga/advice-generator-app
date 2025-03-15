@@ -1,6 +1,7 @@
 import dice from "./images/icon-dice.svg";
 import pattern from "./images/pattern-divider-mobile.svg";
 import patternDesktop from "./images/pattern-divider-desktop.svg";
+import handleButtonClick from "./scripts/handleButtonClick";
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
             <img className="md:hidden" src={pattern} alt="" />
             <img className="max-md:hidden" src={patternDesktop} alt="" />
           </div>
-          <button className="absolute -bottom-8 left-[calc(50%-2rem)] flex size-16 items-center justify-center rounded-full bg-green-300">
+          <button
+            onClick={handleButtonClick}
+            className="hover:drop-shadow-main absolute -bottom-8 left-[calc(50%-2rem)] flex size-16 items-center justify-center rounded-full bg-green-300 transition-all hover:cursor-pointer active:scale-90 active:transform"
+          >
             <img src={dice} alt="icon of a dice" />
           </button>
         </div>
