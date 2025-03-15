@@ -26,4 +26,6 @@
   --radius-*: initial;
   --radius-md: 10px;
   --radius-lg: 15px;
+
+  --spacing-18: 4.5rem;
 }
