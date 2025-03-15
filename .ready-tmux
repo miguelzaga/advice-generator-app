@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+tmux rename-window nvim
+tmux new-window -n npm
+tmux send-keys -t npm "npm run dev" 
+google-chrome http://localhost:5173/
+google-chrome https://www.figma.com/design/3mmmu0zM3Mn0RVjfy1IXDF/advice-generator-app
+tmux new-window -n terminal
+tmux select-window -t nvim
+nvim .
+
